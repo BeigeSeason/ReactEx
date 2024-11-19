@@ -10,6 +10,9 @@ import Counter from './ClassCompenent';
 import Say from './Say';
 import Clock from './Clock';
 import EventPractice from './EventPractice';
+import DropdownComponent from './DropdownComponent';
+import RadioButtonComponent from './RadioButtonComponent';
+import TableMap from './TableMap';
 
 const productInfo = {
   date: "2024-09-01",
@@ -41,9 +44,14 @@ function App() {
 
       {/* <Say /> */}
 
-      {/* <Clock /> */}
+      <Clock />
 
-      <EventPractice />
+      {/* <EventPractice /> */}
+      {/* <DropdownComponent /> */}
+
+      {/* <RadioButtonComponent /> */}
+
+      {/* <TableMap /> */}
 
     </>
 
