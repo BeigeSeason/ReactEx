@@ -6,6 +6,10 @@ import WelcomeProps from "./WelcomeProps";
 import Articles from './Articles';
 import MyComponent from './MyComponent';
 import BoxComponent from './BoxComponent';
+import Counter from './ClassCompenent';
+import Say from './Say';
+import Clock from './Clock';
+import EventPractice from './EventPractice';
 
 const productInfo = {
   date: "2024-09-01",
@@ -16,8 +20,8 @@ const productInfo = {
 function App() {
   return (
     <>
-      {/* <JsxSyntax /> */}
-      {/* <GreetingComponent /> */}
+      {/* <JsxSyntax />
+      {/* <GreetingComponent /> }
       <WelcomeProps
         name="김심야"
         job="뮤지션"
@@ -26,12 +30,20 @@ function App() {
         info={productInfo.info} />
       <hr />
 
-      {/* <Articles /> */}
+      {/* <Articles /> }
 
       <MyComponent name="김심야" age={29} />
 
       <BoxComponent>이 사이의 내용을 받아서 랜더링 1</BoxComponent>
-      <BoxComponent>이 사이의 내용을 받아서 랜더링 2</BoxComponent>
+      <BoxComponent>이 사이의 내용을 받아서 랜더링 2</BoxComponent> */}
+
+      {/* <Counter /> */}
+
+      {/* <Say /> */}
+
+      {/* <Clock /> */}
+
+      <EventPractice />
 
     </>
 
