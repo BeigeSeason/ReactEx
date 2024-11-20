@@ -15,6 +15,9 @@ import RadioButtonComponent from './RadioButtonComponent';
 import TableMap from './TableMap';
 import UserList from './UserList';
 import ToDoList from './ToDoList';
+import StateEx1 from './StateEx1';
+import InfoEffect from './InfoEffect';
+
 
 const productInfo = {
   date: "2024-09-01",
@@ -57,7 +60,11 @@ function App() {
 
       {/* <UserList /> */}
 
-      <ToDoList />
+      {/* <ToDoList /> */}
+
+      {/* <StateEx1 /> */}
+
+      <InfoEffect />
 
     </>
 
