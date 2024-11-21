@@ -17,18 +17,22 @@ import UserList from './UserList';
 import ToDoList from './ToDoList';
 import StateEx1 from './StateEx1';
 import InfoEffect from './InfoEffect';
-
+import ReduceCnt from "./ReduceState";
+import Average from "./Average";
+import CreateRef from "./RefEx1";
+import InnerValueKeep from "./RefEx2";
+import RefEx2 from "./RefEx2";
 
 const productInfo = {
-  date: "2024-09-01",
-  info: "I Phone Ringing"
+    date: "2024-09-01",
+    info: "I Phone Ringing"
 }
 
 
 function App() {
-  return (
-    <>
-      {/* <JsxSyntax />
+    return (
+        <>
+            {/* <JsxSyntax />
       {/* <GreetingComponent /> }
       <WelcomeProps
         name="김심야"
@@ -45,30 +49,37 @@ function App() {
       <BoxComponent>이 사이의 내용을 받아서 랜더링 1</BoxComponent>
       <BoxComponent>이 사이의 내용을 받아서 랜더링 2</BoxComponent> */}
 
-      {/* <Counter /> */}
+            {/* <Counter /> */}
 
-      {/* <Say /> */}
+            {/* <Say /> */}
 
-      {/* <Clock /> */}
+            {/* <Clock /> */}
 
-      {/* <EventPractice /> */}
-      {/* <DropdownComponent /> */}
+            {/* <EventPractice /> */}
+            {/* <DropdownComponent /> */}
 
-      {/* <RadioButtonComponent /> */}
+            {/* <RadioButtonComponent /> */}
 
-      {/* <TableMap /> */}
+            {/* <TableMap /> */}
 
-      {/* <UserList /> */}
+            {/* <UserList /> */}
 
-      {/* <ToDoList /> */}
+            {/* <ToDoList /> */}
 
-      {/* <StateEx1 /> */}
+            {/* <StateEx1 /> */}
 
-      <InfoEffect />
+            {/*<InfoEffect />*/}
 
-    </>
+            {/*<ReduceCnt />*/}
 
-  );
+            {/*<Average/>*/}
+
+            {/*<CreateRef />*/}
+
+            <InnerValueKeep/>
+        </>
+
+    );
 }
 
 export default App;
